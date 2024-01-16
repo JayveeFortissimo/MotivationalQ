@@ -1,0 +1,56 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-image: url(jayvee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Childiv{
+    height: auto;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    color: aliceblue;
+    border: 1px solid white;
+}
+
+.BTN{
+    height: 3rem;
+    margin-top: 20px;
+}
+
+.BTN button{
+   height: 2rem;
+   width: 10rem;
+   border: none;
+   background-color: rgb(53, 53, 53);
+   color: aliceblue;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.ParentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
